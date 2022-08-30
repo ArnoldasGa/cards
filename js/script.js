@@ -127,8 +127,6 @@ function carnew() {
     let newmodel = document.getElementById('model').value
     let newbrand = document.getElementById('brand').value
     let newcolor = document.getElementById('newcolor').value
-    // let temp = {brand : newbrand, model : newmodel, color : newcolor}
     cars.push({brand : newbrand, model : newmodel, color : newcolor})
     cards()
-    // console.log(model);
 }
