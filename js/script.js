@@ -107,7 +107,6 @@ let newCar = document.getElementById('addButton').addEventListener('click', carn
 
 function colorC() {
     colors = document.getElementById('change').value
-        console.log(colors);
         for (let i = 0; i < cars.length; i++){
             cars[i].color = colors
         }
@@ -117,7 +116,6 @@ function colorC() {
 function colorR() {
     for (let i = 0; i < cars.length; i++){
         colors = '#' + Math.floor(Math.random()*16777215).toString(16);
-        console.log(colors);
         cars[i].color = colors
     }
     cards()
